@@ -41,7 +41,7 @@ def get_enhanced(path):
 def get_split(path):
     return send_from_directory('split', path)
 
-@app.route('setorig/<path:path>')
+@app.route('/setorig/<path:path>')
 def set_original(path):
     file = send_from_directory('originals', path)
     target = os.path.join(APP_ROOT, 'videos')
@@ -51,7 +51,7 @@ def set_original(path):
 
     return index()
 
-@app.route('setenh/<path:path>')
+@app.route('/setenh/<path:path>')
 def set_enhanced(path):
     file = send_from_directory('enhanced', path)
     target = os.path.join(APP_ROOT, 'videos')
