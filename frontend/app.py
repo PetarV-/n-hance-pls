@@ -3,13 +3,14 @@ import sys
 from flask import Flask, render_template, request, send_from_directory
 from os import listdir
 from os.path import isfile, join
-from backend.get_frames import video_to_frames, frames_to_video
-from backend.nhancer import nhance
 
 app = Flask(__name__)
 
 APP_ROOT = os.path.dirname(__file__)
-sys.path.append(os.path.join(APP_ROOT, '.'))
+sys.path.append(os.path.join(APP_ROOT, '../'))
+
+from backend.get_frames import video_to_frames, frames_to_video
+from backend.nhancer import nhance
 
 @app.route('/')
 def index():
