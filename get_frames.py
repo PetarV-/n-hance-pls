@@ -14,11 +14,22 @@ def video_to_frames(input_loc):
 def frames_to_video(array_of_frames, output_loc):
     """
     Reconstructs video from frames, assuming
-    :param array_of_frames:
-    :param output_loc:
-    :return:
+    :param array_of_frames: numpy array with dimensions (time, height, width, channels)
+    :param output_loc: path to video file to be saved
     """
-    return skvideo.io.vwrite(output_loc, array_of_frames)
+    rate = "30"
+    writer = skvideo.io.FFmpegWriter(output_loc, inputdict={
+      '-r': rate,
+    },
+    outputdict={
+      '-vcodec': 'libx264',
+      '-pix_fmt': 'yuv420p',
+      '-r': rate,
+    })
+    for i in range(len(array_of_frames)):
+        writer.writeFrame(array_of_frames[i, :, :, :])
+    writer.close()
+    return
 
 
 if __name__=='__main__':
