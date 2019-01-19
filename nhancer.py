@@ -36,6 +36,7 @@ def nhance(frames, pct=1.0):
 
         ptr = 0
         while ptr < vlen:
+            print('Ptr is: ', ptr)
             bsz = batch_sz if ptr + batch_sz <= vlen else (vlen - ptr) 
             batch = np.reshape(imgs[ptr : ptr + bsz], [bsz, img_sz])
             r_batch = sess.run(batch, feed_dict={x_: batch})
