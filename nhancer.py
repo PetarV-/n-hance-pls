@@ -1,9 +1,10 @@
 import numpy as np
 import tensorflow as tf
 from model import resnet
+from scipy.misc import bytescale
 
 use_gpu = True
-batch_sz = 32
+batch_sz = 8
 
 img_h = 720
 img_w = 1280
@@ -36,11 +37,11 @@ def nhance(frames, pct=1.0):
             print('Ptr is: ', ptr)
             bsz = batch_sz if ptr + batch_sz <= vlen else (vlen - ptr) 
             batch = np.reshape(imgs[ptr : ptr + bsz], [bsz, img_sz])
-            r_batch = sess.run(batch, feed_dict={x_: batch})
-            r_batch = np.uint8(np.reshape(r_batch, [batch_sz, img_h, img_w, img_d]) * 255)
+            r_batch = sess.run(enhanced, feed_dict={x_: batch})
+            r_batch = bytescale(np.reshape(r_batch, [batch_sz, img_h, img_w, img_d]))
             ret[ptr : ptr + batch_sz, :, :, :] = r_batch
             if pct < 1.0:
-                ret_ba[ptr : ptr + batch_sz, :, lim_pt:, :] = rbatch[:, :, lim_pt:, :]
+                ret_ba[ptr : ptr + batch_sz, :, lim_pt:, :] = r_batch[:, :, lim_pt:, :]
             ptr += bsz
-
+        
         return ret, ret_ba
