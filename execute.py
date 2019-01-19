@@ -1,7 +1,7 @@
 from get_frames import video_to_frames, frames_to_video
 from nhancer import nhance
 
-inp = 'test_videos/IMG_0037.m4v'
+inp = 'test_videos/IMG_0037.MOV'
 out_full = 'test_videos/recon_f.mp4'
 out_part = 'test_videos/recon_p.mp4'
 
