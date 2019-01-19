@@ -1,10 +1,10 @@
 import numpy as np
 import tensorflow as tf
-from model import resnet
+from backend.model import resnet
 from scipy.misc import bytescale
 
 use_gpu = True
-batch_sz = 8
+batch_sz = 4
 
 img_h = 720
 img_w = 1280
