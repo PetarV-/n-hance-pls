@@ -1,5 +1,6 @@
 import os
 import sys
+import shutil
 from flask import Flask, render_template, request, send_from_directory
 from os import listdir
 from os.path import isfile, join
@@ -14,7 +15,7 @@ from backend.nhancer import nhance
 
 @app.route('/')
 def index():
-    onlyfiles = [f for f in listdir("videos") if isfile(join("videos", f))]
+    onlyfiles = [f for f in listdir("frontend/videos") if isfile(join("frontend/videos", f))]
     return render_template('upload.html', videos=onlyfiles)
 
 @app.route('/upload', methods=["POST"])
@@ -24,7 +25,7 @@ def upload():
     filename = file.filename
     destination = "/".join([target, filename])
     file.save(destination)
-    set_original(destination)
+    _ = set_original(filename)
 
     return index()
 
@@ -46,21 +47,21 @@ def get_split(path):
 
 @app.route('/setorig/<path:path>')
 def set_original(path):
-    file = send_from_directory('originals', path)
-    target = os.path.join(APP_ROOT, 'videos')
-    filename = file.filename
-    destination = "/".join([target, filename])
-    file.save(destination)
+    src = os.path.join(APP_ROOT, 'originals')
+    dst = os.path.join(APP_ROOT, 'videos')
+    source = "/".join([src, path])
+    destination = "/".join([dst, path])
+    shutil.copy(source, destination)
 
     return index()
 
 @app.route('/setenh/<path:path>')
 def set_enhanced(path):
-    file = send_from_directory('enhanced', path)
-    target = os.path.join(APP_ROOT, 'videos')
-    filename = file.filename
-    destination = "/".join([target, filename])
-    file.save(destination)
+    src = os.path.join(APP_ROOT, 'enhanced')
+    dst = os.path.join(APP_ROOT, 'videos')
+    source = "/".join([src, path])
+    destination = "/".join([dst, path])
+    shutil.copy(source, destination)
 
     return index()
 
