@@ -33,8 +33,8 @@ def frames_to_video(array_of_frames, output_loc):
 
 
 if __name__=='__main__':
-    input_loc = './test_videos/IMG_0037.MOV'
-    output_loc = './test_videos/reconstructed.mp4'
+    input_loc = './frontend/videos/IMG_0044.MOV'
+    output_loc = './frontend/videos/reconstructed.mp4'
     array_of_frames = video_to_frames(input_loc)
     frames_to_video(array_of_frames, output_loc)
 

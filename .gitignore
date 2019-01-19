@@ -109,3 +109,5 @@ idea/
 extracted_frames/
 test_videos/
 .DS_Store
+*.MOV
+*.m4v
