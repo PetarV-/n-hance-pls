@@ -8,6 +8,7 @@ from backend.nhancer import nhance
 app = Flask(__name__)
 
 APP_ROOT = os.path.dirname(__file__)
+sys.path.append(os.path.join(APP_ROOT, '..'))
 
 @app.route('/')
 def index():
