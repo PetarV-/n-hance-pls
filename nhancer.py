@@ -3,7 +3,7 @@ import tensorflow as tf
 from model import resnet
 
 use_gpu = True
-batch_sz = 32
+batch_sz = 8
 
 img_h = 720
 img_w = 1280
@@ -40,7 +40,7 @@ def nhance(frames, pct=1.0):
             r_batch = np.uint8(np.reshape(r_batch, [batch_sz, img_h, img_w, img_d]) * 255)
             ret[ptr : ptr + batch_sz, :, :, :] = r_batch
             if pct < 1.0:
-                ret_ba[ptr : ptr + batch_sz, :, lim_pt:, :] = rbatch[:, :, lim_pt:, :]
+                ret_ba[ptr : ptr + batch_sz, :, lim_pt:, :] = r_batch[:, :, lim_pt:, :]
             ptr += bsz
 
         return ret, ret_ba
