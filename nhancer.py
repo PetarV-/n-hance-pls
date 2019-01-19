@@ -1,9 +1,6 @@
 import numpy as np
 import tensorflow as tf
 from model import resnet
-import utils
-import os
-import sys
 
 use_gpu = True
 batch_sz = 32
