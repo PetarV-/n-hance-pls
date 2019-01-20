@@ -13,12 +13,16 @@ img_sz = img_h * img_w * img_d
 
 config = tf.ConfigProto(device_count={'GPU': 0}) if not use_gpu else None
 
-x_ = tf.placeholder(tf.float32, [None, img_sz])
-x_image = tf.reshape(x_, [-1, img_h, img_w, img_d])
-enhanced = resnet(x_image)
+def build_net():
+    x_ = tf.placeholder(tf.float32, [None, img_sz])
+    x_image = tf.reshape(x_, [-1, img_h, img_w, img_d])
+    enhanced = resnet(x_image)
+    return x_, enhanced
 
 def nhance(frames, pct=1.0, frs=60, swp=30):
     with tf.Session(config=config) as sess:
+        x_, enhanced = build_net()
+
         saver = tf.train.Saver()
         saver.restore(sess, "models/iphone")
 
