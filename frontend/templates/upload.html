@@ -50,7 +50,9 @@
 
     <section class="jumbotron text-center">
         <div class="container">
-            <h1 class="jumbotron-heading">N-hance (pls)</h1>
+            <img src="{{ url_for('static', filename='n-hance-pls.svg') }}">
+            <div style="height: 50px">
+            </div>
             <form id="upload-form" action="upload" method="post" id="upload-form" enctype="multipart/form-data">
                 <div class="form-group">
                     <div class="row">
@@ -74,7 +76,6 @@
         <div class="container">
             <div class="row">
         {% for video in videos %}
-
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
                         <video width="100%" height="225" controls>
@@ -86,7 +87,6 @@
                                     <a href="/video/{{video}}" class="btn btn-sm btn-outline-secondary">View</a>
                                     <a href="/enhance/{{video}}" class="btn btn-sm btn-outline-secondary">Enhance</a>
                                 </div>
-                                <small class="text-muted">9 mins</small>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p>&copy; N-hance (pls), created by Petar Veličković and Emma Rocheteau for Hack Cambridge 4D</p>
         <p>New to Bootstrap? <a href="https://getbootstrap.com">Visit the homepage</a> or read our <a
                 href="/docs/4.2/getting-started/introduction/">getting started guide</a>.</p>
     </div>
