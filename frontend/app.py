@@ -18,6 +18,10 @@ def index():
     onlyfiles = [f for f in listdir("frontend/videos") if isfile(join("frontend/videos", f))]
     return render_template('upload.html', videos=onlyfiles)
 
+@app.route('/homebutton')
+def home():
+    return index()
+
 @app.route('/upload', methods=["POST"])
 def upload():
     target = os.path.join(APP_ROOT, 'originals')
@@ -67,7 +71,6 @@ def set_original(path):
     source = "/".join([src, path])
     destination = "/".join([dst, path])
     shutil.copy(source, destination)
-
     return index()
 
 @app.route('/setenh/<path:path>')
@@ -77,7 +80,6 @@ def set_enhanced(path):
     source = "/".join([src, path])
     destination = "/".join([dst, path])
     shutil.copy(source, destination)
-
     return index()
 
 @app.route('/download/<path:path>')
