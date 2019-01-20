@@ -16,7 +16,7 @@
    id="svg59"
    sodipodi:docname="n-hance-pls.svg"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   inkscape:export-filename="/Users/emmarocheteau/PycharmProjects/n-hance-pls/frontend/static/n-hance_pls.png"
+   inkscape:export-filename="/Users/emmarocheteau/PycharmProjects/n-hance-pls/frontend/static/n-hance-pls1.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,8 +45,8 @@
      id="namedview61"
      showgrid="false"
      inkscape:zoom="1.3171914"
-     inkscape:cx="136.98535"
-     inkscape:cy="95.556327"
+     inkscape:cx="272.88056"
+     inkscape:cy="65.188683"
      inkscape:window-x="49"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
@@ -309,7 +309,7 @@
        x="283.29367"
        y="370.70221"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.92874527px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';fill:#373a3c;fill-opacity:1;stroke-width:1.02790987"
-       id="tspan889">Making your smartphone videos better...</tspan></text>
+       id="tspan889">Neural networks make your smartphone videos better...</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:41.11639786px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.02790987"
