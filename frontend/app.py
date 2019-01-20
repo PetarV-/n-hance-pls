@@ -65,7 +65,7 @@ def set_enhanced(path):
 
     return index()
 
-@app.route('download/<path:path>')
+@app.route('/download/<path:path>')
 def download(path):
     return send_from_directory('enhanced', path)
 
