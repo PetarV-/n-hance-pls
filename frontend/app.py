@@ -65,6 +65,10 @@ def set_enhanced(path):
 
     return index()
 
+@app.route('download/<path:path>')
+def download(path):
+    return send_from_directory('enhanced', path)
+
 @app.route('/video/<id>')
 def video(id):
     return render_template('video.html', id=id)
