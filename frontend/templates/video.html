@@ -49,42 +49,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12" style="text-align:center">
-                    <h3>
-                        See the difference?
-                    </h3>
                     <div class="btn-group">
                         <button class="btn btn-outline-primary" onclick="document.getElementById('splitvideo').play();document.getElementById('origvideo').play();document.getElementById('enhvideo').play();">Play all</button>
+                        <a href="/download/{{video}}" align="right" class="btn btn-outline-primary">Download your enhanced video</a>
                     </div>
                     <video width="100%" height="675" playsinline muted loop controls id="splitvideo">
                         <source src="/getsplit/{{video}}" type="video/mp4">
                     </video>
-                    <div class="" style="display: inline-block">
-                        <a href="/download/{{video}}" align="right" class="btn btn-outline-primary">Download your enhanced video</a>
-                    </div>
                     <div style="height:32px"></div>
-                    <h3>
-                        Compare the results...
-                    </h3>
                 </div>
             </div>
             <div style="height:32px">
             </div>
             <div class="row">
                 <div class="col-md-6">
+                    <div class="centeralign" style="text-align:center">
+                        <h4>Original</h4>
+                    </div>
                     <video width="100%" height="338" playsinline muted loop controls id="origvideo">
                         <source src="/getorig/{{video}}" type="video/mp4">
                     </video>
-                    <div class="centeralign">
-                        <h6 class="float-right">(Original)</h6>
-                    </div>
                 </div>
                 <div class="col-md-6">
+                    <div class="centeralign" style="text-align:center">
+                        <h4>Enhanced</h4>
+                    </div>
                     <video width="100%" height="338" playsinline muted loop controls id="enhvideo">
                         <source src="/getenh/{{video}}" type="video/mp4">
                     </video>
-                    <div class="centeralign">
-                        <h6 class="float-right">(Enhanced)</h6>
-                    </div>
                 </div>
             </div>
         </div>
