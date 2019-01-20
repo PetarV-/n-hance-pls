@@ -30,6 +30,21 @@ def upload():
     destination = "/".join([target, filename])
     file.save(destination)
     _ = set_original(filename)
+
+    dest_1 = os.path.join(APP_ROOT, 'enhanced')
+    dest_2 = os.path.join(APP_ROOT, 'split')
+    dest_3 = os.path.join(APP_ROOT, 'videos')
+
+    destination_enh = "/".join([dest_1, filename])
+    destination_spl = "/".join([dest_2, filename])
+    destination_vid = "/".join([dest_3, filename])
+
+    frames = video_to_frames(destination)
+    full, part, swipe = nhance(frames, pct=0.5, frs=60, swp=30)
+    frames_to_video(full, destination_enh)
+    frames_to_video(part, destination_spl)
+    frames_to_video(swipe, destination_vid)
+
     return index()
 
 @app.route('/getvideo/<path:path>')
