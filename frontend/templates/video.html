@@ -31,7 +31,7 @@
     </div>
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center">
+            <a href="/homebutton" class="navbar-brand d-flex align-items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"
                      focusable="false" aria-hidden="true">
@@ -53,25 +53,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="card mb-12 shadow-sm">
-                        <video width="100%" height="675" controls>
-                            <source src="/getsplit/{{video}}" type="video/mp4">
-                        </video>
-                    </div>
+                    <h3>
+                        Enhancing your video!
+                    </h3>
+                    <video width="100%" height="675" playsinline autoplay muted controls id="splitvideo">
+                        <source src="/getsplit/{{video}}" type="video/mp4">
+                    </video>
+                    <div style="height:32px"></div>
+                    <h3>
+                        Compare the results...
+                    </h3>
                 </div>
             </div>
-        </div>
-        <div class="container">
+            <div style="height:32px">
+            </div>
             <div class="row">
                 <div class="col-md-6">
-                    <video width="100%" height="338" controls>
+                    <video width="100%" height="338" playsinline autoplay muted controls id="origvideo">
                         <source src="/getorig/{{video}}" type="video/mp4">
                     </video>
+                    <div class="centeralign">
+                        <h6 class="float-right">(Original)</h6>
+                    </div>
                 </div>
                 <div class="col-md-6">
-                    <video width="100%" height="338" controls>
+                    <video width="100%" height="338" playsinline autoplay muted controls id="enhvideo">
                         <source src="/getenh/{{video}}" type="video/mp4">
                     </video>
+                    <div class="centeralign">
+                        <h6 class="float-right">(Enhanced)</h6>
+                    </div>
                 </div>
             </div>
         </div>
@@ -98,5 +109,8 @@
         $("#spinner").show();
     });
 </script>
+<script> document.getElementById('splitvideo').play(); </script>
+<script> document.getElementById('origvideo').play(); </script>
+<script> document.getElementById('enhvideo').play(); </script>
 </body>
 </body>
