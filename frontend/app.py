@@ -71,7 +71,7 @@ def download(path):
 
 @app.route('/video/<id>')
 def video(id):
-    return render_template('video.html', id=id)
+    return render_template('video.html', video=id)
 
 if __name__=='__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
