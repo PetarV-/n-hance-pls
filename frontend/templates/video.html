@@ -53,13 +53,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="card mb-4 shadow-sm">
-                        <video width="100%" height="225" controls>
-                            <source src="/getvideo/{{video}}" type="video/mp4">
+                    <div class="card mb-12 shadow-sm">
+                        <video width="100%" height="675" controls>
+                            <source src="/getsplit/{{video}}" type="video/mp4">
                         </video>
                     </div>
                 </div>
-           </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <video width="100%" height="338" controls>
+                        <source src="/getorig/{{video}}" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-6">
+                    <video width="100%" height="338" controls>
+                        <source src="/getenh/{{video}}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </div>
     </div>
 </main>
@@ -69,9 +83,7 @@
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="https://getbootstrap.com">Visit the homepage</a> or read our <a
-                href="/docs/4.2/getting-started/introduction/">getting started guide</a>.</p>
+        <p>&copy; N-hance (pls), created by Petar Veličković and Emma Rocheteau for Hack Cambridge 4D</p>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
