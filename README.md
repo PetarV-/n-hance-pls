@@ -1,6 +1,7 @@
 # N-hance (pls)
 
 [![](https://raw.githubusercontent.com/PetarV-/n-hance-pls/master/nhance-logo.png?token=AD_VHKroPhUIuDGY0ynsT4sT6WkL1aq-ks5cTU18wA%3D%3D)](https://nodesource.com/products/nsolid)
+
 by [_Petar Veličković_](https://github.com/PetarV-) and [_Emma Rocheteau_](https://github.com/EmmaRocheteau)
 
 Neural networks make your smartphone videos better... after you've filmed them
