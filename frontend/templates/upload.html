@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>N-hance (pls)</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
 </head>
 <body>
 <header>
@@ -78,7 +79,7 @@
         {% for video in videos %}
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <video width="100%" height="225" controls>
+                        <video width="100%" height="225" autoplay="true" controls>
                           <source src="/getvideo/{{video}}" type="video/mp4">
                         </video>
                         <div class="card-body">
@@ -105,8 +106,6 @@
             <a href="#">Back to top</a>
         </p>
         <p>&copy; N-hance (pls), created by Petar Veličković and Emma Rocheteau for Hack Cambridge 4D</p>
-        <p>New to Bootstrap? <a href="https://getbootstrap.com">Visit the homepage</a> or read our <a
-                href="/docs/4.2/getting-started/introduction/">getting started guide</a>.</p>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

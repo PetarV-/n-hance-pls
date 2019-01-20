@@ -10,11 +10,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    preserveAspectRatio="xMidYMid meet"
-   viewBox="277.83098 180.56185 574.8689 171.99055"
+   viewBox="277.83098 180.56185 574.8689 221.30959"
    width="559.26001"
-   height="167.39"
+   height="215.39"
    id="svg59"
-   sodipodi:docname="n-hance_pls.svg"
+   sodipodi:docname="n-hance-pls.svg"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    inkscape:export-filename="/Users/emmarocheteau/PycharmProjects/n-hance-pls/frontend/static/n-hance_pls.png"
    inkscape:export-xdpi="96"
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,14 +40,14 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1389"
+     inkscape:window-width="1391"
      inkscape:window-height="855"
      id="namedview61"
      showgrid="false"
      inkscape:zoom="1.3171914"
-     inkscape:cx="280.5385"
-     inkscape:cy="4.4533943"
-     inkscape:window-x="51"
+     inkscape:cx="136.98535"
+     inkscape:cy="95.556327"
+     inkscape:window-x="49"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg59"
@@ -109,190 +109,216 @@
        id="bA0IMkePF"
        inkscape:connector-curvature="0" />
   </defs>
-  <g
-     id="g885"
-     transform="translate(2.0558198,-15.909386)">
-    <g
-       transform="translate(0,18.502394)"
-       style="stroke:#373a3c;stroke-opacity:1"
-       id="g21">
-      <use
-         xlink:href="#c3lP2wgpai"
-         id="use15"
-         style="opacity:1;fill:#000000;fill-opacity:0;stroke:#373a3c;stroke-opacity:1"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-      <g
-         style="stroke:#373a3c;stroke-opacity:1"
-         clip-path="url(#clipf7X8f49hwx)"
-         id="g19">
-        <use
-           xlink:href="#c3lP2wgpai"
-           id="use17"
-           style="opacity:1;fill-opacity:0;stroke:#373a3c;stroke-width:8;stroke-opacity:1"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(0,18.502394)"
-       style="fill:#373a3c;fill-opacity:1;stroke:#373a3c;stroke-opacity:1"
-       id="g27">
-      <g
-         style="fill:#373a3c;fill-opacity:1;stroke:#373a3c;stroke-opacity:1"
-         id="g25">
-        <use
-           xlink:href="#a4v4G0AJbl"
-           id="use23"
-           style="opacity:1;fill:#373a3c;fill-opacity:1;stroke:#373a3c;stroke-width:4;stroke-opacity:1"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(0,18.502394)"
-       style="fill:#373a3c;fill-opacity:1"
-       id="g31">
-      <use
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         style="opacity:1;fill:#373a3c;fill-opacity:1"
-         id="use29"
-         xlink:href="#bOxnsw6GW" />
-    </g>
-    <g
-       transform="translate(0,18.502394)"
-       style="fill:#808080"
-       id="g35">
-      <use
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         style="opacity:1;fill:#808080;fill-opacity:1"
-         id="use33"
-         xlink:href="#a1n5Zy3aAs" />
-    </g>
-    <g
-       transform="translate(0,18.502394)"
-       style="fill:#808080"
-       id="g39">
-      <use
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         style="opacity:1;fill:#808080;fill-opacity:1"
-         id="use37"
-         xlink:href="#a9IHPNtSq" />
-    </g>
-    <g
-       transform="translate(0,18.502394)"
-       style="fill:#373a3c;fill-opacity:1"
-       id="g45">
-      <use
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         style="opacity:1;fill:#373a3c;fill-opacity:1"
-         id="use43"
-         xlink:href="#c1aVdvr8rw" />
-    </g>
-    <g
-       transform="translate(0,18.502394)"
-       style="fill:#373a3c;fill-opacity:1"
-       id="g49">
-      <use
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         style="opacity:1;fill:#373a3c;fill-opacity:1"
-         id="use47"
-         xlink:href="#c2OGRCp2YG" />
-    </g>
-    <g
-       transform="translate(0,20.558214)"
-       style="fill:#808080"
-       id="g53">
-      <use
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         style="opacity:1;fill:#808080;fill-opacity:1"
-         id="use51"
-         xlink:href="#bA0IMkePF" />
-    </g>
-  </g>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:41.11638641px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.02790976"
      x="491.23737"
-     y="182.88083"
+     y="232.22043"
      id="text3760"><tspan
        sodipodi:role="line"
        id="tspan3758"
        x="491.23737"
-       y="219.2592"
+       y="268.59882"
        style="stroke-width:1.02790976" /></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:61.33897018px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.53347445"
-     x="552.37714"
-     y="278.03705"
-     id="text3756"
-     transform="scale(0.94653713,1.0564826)"><tspan
-       sodipodi:role="line"
-       id="tspan3754"
-       x="552.37714"
+  <g
+     id="g883"
+     transform="translate(0.78038006,-0.8399295)">
+    <g
+       transform="translate(2.0558198,-15.909386)"
+       id="g885">
+      <g
+         id="g21"
+         style="stroke:#373a3c;stroke-opacity:1"
+         transform="translate(0,18.502394)">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           style="opacity:1;fill:#000000;fill-opacity:0;stroke:#373a3c;stroke-opacity:1"
+           id="use15"
+           xlink:href="#c3lP2wgpai" />
+        <g
+           id="g19"
+           clip-path="url(#clipf7X8f49hwx)"
+           style="stroke:#373a3c;stroke-opacity:1">
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="opacity:1;fill-opacity:0;stroke:#373a3c;stroke-width:8;stroke-opacity:1"
+             id="use17"
+             xlink:href="#c3lP2wgpai" />
+        </g>
+      </g>
+      <g
+         id="g27"
+         style="fill:#373a3c;fill-opacity:1;stroke:#373a3c;stroke-opacity:1"
+         transform="translate(0,18.502394)">
+        <g
+           id="g25"
+           style="fill:#373a3c;fill-opacity:1;stroke:#373a3c;stroke-opacity:1">
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="opacity:1;fill:#373a3c;fill-opacity:1;stroke:#373a3c;stroke-width:4;stroke-opacity:1"
+             id="use23"
+             xlink:href="#a4v4G0AJbl" />
+        </g>
+      </g>
+      <g
+         id="g31"
+         style="fill:#373a3c;fill-opacity:1"
+         transform="translate(0,18.502394)">
+        <use
+           xlink:href="#bOxnsw6GW"
+           id="use29"
+           style="opacity:1;fill:#373a3c;fill-opacity:1"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g35"
+         style="fill:#808080"
+         transform="translate(0,18.502394)">
+        <use
+           xlink:href="#a1n5Zy3aAs"
+           id="use33"
+           style="opacity:1;fill:#808080;fill-opacity:1"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g39"
+         style="fill:#808080"
+         transform="translate(0,18.502394)">
+        <use
+           xlink:href="#a9IHPNtSq"
+           id="use37"
+           style="opacity:1;fill:#808080;fill-opacity:1"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g45"
+         style="fill:#373a3c;fill-opacity:1"
+         transform="translate(0,18.502394)">
+        <use
+           xlink:href="#c1aVdvr8rw"
+           id="use43"
+           style="opacity:1;fill:#373a3c;fill-opacity:1"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g49"
+         style="fill:#373a3c;fill-opacity:1"
+         transform="translate(0,18.502394)">
+        <use
+           xlink:href="#c2OGRCp2YG"
+           id="use47"
+           style="opacity:1;fill:#373a3c;fill-opacity:1"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g53"
+         style="fill:#808080"
+         transform="translate(0,20.558214)">
+        <use
+           xlink:href="#bA0IMkePF"
+           id="use51"
+           style="opacity:1;fill:#808080;fill-opacity:1"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <text
+       transform="scale(0.94653713,1.0564826)"
+       id="text3756"
        y="278.03705"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.32089996px;font-family:SignPainter;-inkscape-font-specification:SignPainter;letter-spacing:0px;fill:#373a3c;fill-opacity:1;stroke-width:1.53347445">-hance</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:58.42145538px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.46053648"
-     x="437.56622"
-     y="295.52231"
-     id="text54"
-     transform="scale(0.99964492,1.0003552)"><tspan
-       sodipodi:role="line"
-       id="tspan52"
-       x="437.56622"
+       x="552.37714"
+       style="font-style:normal;font-weight:normal;font-size:61.33897018px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.53347445"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.32089996px;font-family:SignPainter;-inkscape-font-specification:SignPainter;letter-spacing:0px;fill:#373a3c;fill-opacity:1;stroke-width:1.53347445"
+         y="278.03705"
+         x="552.37714"
+         id="tspan3754"
+         sodipodi:role="line">-hance</tspan></text>
+    <text
+       transform="scale(0.99964492,1.0003552)"
+       id="text54"
        y="295.52231"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:97.36909485px;font-family:'8BIT WONDER';-inkscape-font-specification:'8BIT WONDER';fill:#373a3c;fill-opacity:1;stroke-width:1.46053648">N</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:42.87234879px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.07180858"
-     x="794.84253"
-     y="282.0549"
-     id="text58"
-     transform="scale(0.95904246,1.0427067)"><tspan
-       sodipodi:role="line"
-       id="tspan56"
-       x="794.84253"
+       x="437.56622"
+       style="font-style:normal;font-weight:normal;font-size:58.42145538px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.46053648"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:97.36909485px;font-family:'8BIT WONDER';-inkscape-font-specification:'8BIT WONDER';fill:#373a3c;fill-opacity:1;stroke-width:1.46053648"
+         y="295.52231"
+         x="437.56622"
+         id="tspan52"
+         sodipodi:role="line">N</tspan></text>
+    <text
+       transform="scale(0.95904246,1.0427067)"
+       id="text58"
        y="282.0549"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.58865356px;font-family:SignPainter;-inkscape-font-specification:SignPainter;fill:#373a3c;fill-opacity:1;stroke-width:1.07180858">(pls)</tspan></text>
+       x="794.84253"
+       style="font-style:normal;font-weight:normal;font-size:42.87234879px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.07180858"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.58865356px;font-family:SignPainter;-inkscape-font-specification:SignPainter;fill:#373a3c;fill-opacity:1;stroke-width:1.07180858"
+         y="282.0549"
+         x="794.84253"
+         id="tspan56"
+         sodipodi:role="line">(pls)</tspan></text>
+    <text
+       transform="scale(0.96883667,1.0321657)"
+       id="text852"
+       y="315.11743"
+       x="452.02863"
+       style="font-style:normal;font-weight:normal;font-size:47.31269836px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.18281734"
+       xml:space="preserve"><tspan
+         id="tspan858"
+         style="fill:#373a3c;fill-opacity:1;stroke-width:1.18281734"
+         y="315.11743"
+         x="452.02863"
+         sodipodi:role="line"><tspan
+           id="tspan854"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.89378738px;font-family:SignPainter;-inkscape-font-specification:SignPainter;fill:#373a3c;fill-opacity:1;stroke-width:1.18281734">by Petar Veličković and Emma Rocheteau</tspan></tspan></text>
+  </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:47.31269836px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.18281734"
-     x="452.02863"
-     y="315.11743"
-     id="text852"
-     transform="scale(0.96883667,1.0321657)"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41.11639786px;line-height:1.25;font-family:'.Helvetica LT MM';-inkscape-font-specification:'.Helvetica LT MM';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.02790987"
+     x="283.29367"
+     y="370.70221"
+     id="text887"><tspan
        sodipodi:role="line"
-       x="452.02863"
-       y="315.11743"
-       style="fill:#373a3c;fill-opacity:1;stroke-width:1.18281734"
-       id="tspan858"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.89378738px;font-family:SignPainter;-inkscape-font-specification:SignPainter;fill:#373a3c;fill-opacity:1;stroke-width:1.18281734"
-   id="tspan854">by Petar Veličković and Emma Rocheteau</tspan> </tspan></text>
+       x="283.29367"
+       y="370.70221"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.92874527px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';fill:#373a3c;fill-opacity:1;stroke-width:1.02790987"
+       id="tspan889">Making your smartphone videos better...</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:41.11639786px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#373a3c;fill-opacity:1;stroke:none;stroke-width:1.02790987"
+     x="283.29364"
+     y="395.67438"
+     id="text884"><tspan
+       sodipodi:role="line"
+       id="tspan882"
+       x="283.29364"
+       y="395.67438"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.92874527px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';fill:#373a3c;fill-opacity:1;stroke-width:1.02790987">after you've filmed them</tspan></text>
 </svg>
