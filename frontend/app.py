@@ -36,7 +36,7 @@ def upload():
     destination_vid = "/".join([dest_3, filename])
 
     frames = video_to_frames(destination)
-    full, part, swipe = nhance(frames, pct=0.5, frs=60, swp=30)
+    full, part, swipe = nhance(frames, pct=0.5, frs=30, swp=15)
     frames_to_video(full, destination_enh)
     frames_to_video(part, destination_spl)
     frames_to_video(swipe, destination_vid)
