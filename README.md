@@ -8,9 +8,9 @@ Neural networks make your smartphone videos better... after you've filmed them
 
 ## Motivation
 
-Smartphones have gradually revolutionised the way in which we record our most important events---with camera setups that are, at times, capable of rivalling bespoke cameras in terms of output. This has made smartphone cameras one of their centerpiece features, and one that, more often then not, determines their price tag.
+Smartphones have gradually revolutionised the way in which we record our most important events---with camera setups that are now, at a glance, capable of rivalling bespoke cameras. This has made cameras one of the centerpiece features of smartphones.
 
-However, phone cameras are also bound to have deficiencies---arising from the constrained nature of squeezing them onto a mobile device. For example, they may not be able to handle a certain lighting setup properly, and result in over- or under-exposed photos and videos. These effects generally become more dire as we move to the lower-end of the price spectrum.
+However, phone cameras are also bound to have deficiencies---arising from the constrained nature of squeezing them onto a mobile device. For example, they may not be able to handle a certain lighting setup properly, and result in over- or under-exposed photos and videos. These effects generally deteriorate as we move to the lower-end of the price spectrum.
 
 While it may seem as if all is lost when a photo/video is taken under poor conditions, **neural networks** may be leveraged to remedy the situation---sometimes substantially. To demonstrate this, we present **N-hance (pls)**, (to the best of our knowledge) the first enhancing system for smartphone videos.
 
